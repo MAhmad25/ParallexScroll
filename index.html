@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <meta charset="UTF-8" />
+            <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+            <title>Image Gallery</title>
+      </head>
+      <body>
+            <main class="w-full bg-zinc-800">
+                  <section class="w-full h-screen"></section>
+                  <section class="w-full h-screen flex justify-center relative items-center">
+                        <h1 class="uppercase h1 text-5xl sm:text-7xl z-20 mix-blend-difference text-white font-medium">Gallery</h1>
+                        <img data-scroll-speed="1.2" class="w-32 h-32 rounded sm:w-52 sm:h-52 absolute top-[20%] left-[10%] sm:top-[13%] sm:left-[5%]" src="/2.webp" alt="Space" />
+                        <img data-scroll-speed="1.1" class="w-32 h-32 rounded sm:w-52 sm:h-52 absolute top-[54%] left-[20%] sm:top-[55%] sm:left-[20%]" src="/3.webp" alt="Space" />
+                        <img data-scroll-speed="0.9" class="w-32 h-32 rounded sm:w-52 sm:h-52 absolute top-[35%] left-[60%] sm:top-[25%] sm:left-[60%]" src="/4.webp" alt="Space" />
+                        <img data-scroll-speed="1.1" class="w-32 h-32 rounded sm:w-52 sm:h-52 absolute top-[60%] left-[55%] sm:top-[50%] sm:left-[75%]" src="/5.webp" alt="Space" />
+                  </section>
+                  <section class="w-full h-screen"></section>
+            </main>
+            <script type="module" src="/src/main.js"></script>
+      </body>
+</html>
